@@ -1,3 +1,4 @@
+import { describe, expect, it } from '@jest/globals';
 import Item from '../item';
 
 describe('Testes dos itens', () => {

@@ -9,5 +9,16 @@
         "sourceType": "module"
     },
     "rules": {
-    }
+        "import/extensions": 0,
+        "prefer-destructuring": 0,
+        "no-underscore-dangle": 0
+    },
+    "overrides": [
+        {
+          "files": ["tests/**/*"],
+          "env": {
+            "jest": true
+          }
+        }
+      ]
 }

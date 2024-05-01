@@ -1,3 +1,4 @@
+import { describe, expect, it } from '@jest/globals';
 import { somaHorasExtras, calculaDescontos } from '../index';
 
 describe('Testes dos cálculos de folha', () => {

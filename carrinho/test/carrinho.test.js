@@ -1,3 +1,4 @@
+import { describe, expect, it } from '@jest/globals';
 import Carrinho from '../carrinho';
 import Item from '../item';
 
